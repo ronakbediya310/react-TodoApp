@@ -19,7 +19,7 @@
   margin: auto;
   padding: auto;
   justify-self: center;
-  gap: 10px;
+  gap: 25px;
   justify-content: center;
 }
 
@@ -63,7 +63,7 @@ button {
   justify-content: center;
   margin: auto;
   padding: auto;
-  gap: 5px;
+  gap: 25px;
 }
 .task-title {
   font-size: 20px;
@@ -89,6 +89,9 @@ button {
 @media screen and (max-width: 600px) {
   .header {
     height: 15vh;
+  }
+  input{
+    width:50%;
   }
 
   .taskbody {
