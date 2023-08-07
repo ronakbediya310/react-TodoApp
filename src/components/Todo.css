@@ -4,7 +4,7 @@
 }
 .header {
   margin: 0;
-  height: 20vh;
+  height: 200px;
   width: 100%;
 
   }
@@ -89,7 +89,7 @@ button {
 /* Media query for small screens (max width 600px) */
 @media screen and (max-width: 600px) {
   .header {
-    height: 15vh;
+    height: 150px;
   }
   input{
     width:50%;
